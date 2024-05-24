@@ -14,24 +14,24 @@ Inside the src/config folder create a file named as config.json and write the
 following code:
 ```{
   "development": {
-  "username": "root",
-  "password": "mypassword",
-  "database": "database_development",
-  "host": "127.0.0.1",
+  "username": "abc",
+  "password": "abc",
+  "database": "database_dev",
+  "host": "YOUR_CHOICE",
   "dialect": "mysql"
   },
   "test": {
-  "username": "root",
-  "password": null,
+  "username": "abc",
+  "password": abc,
   "database": "database_test",
-  "host": "127.0.0.1",
+  "host": "YOUR_CHOICE",
   "dialect": "mysql"
   },
   "production": {
-  "username": "root",
-  "password": null,
+  "username": "abc",
+  "password": abc,
   "database": "database_production",
-  "host": "127.0.0.1",
+  "host": "YOUR_CHOICE",
   "dialect": "mysql"
   }
 }
