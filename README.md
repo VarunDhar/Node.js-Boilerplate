@@ -4,6 +4,5 @@ Feel free to change anything.
 - Download this template from Git Hub and open it in a text editor of your choice.
 - In the root directory create a .env file and add the following env variables :
   ```PORT=<port number of your choice>```
-
-ex:
+  ex:
   ```PORT=3000```
