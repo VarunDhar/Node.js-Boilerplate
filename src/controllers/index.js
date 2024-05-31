@@ -1,5 +1,5 @@
-const homepage = require("./homepage");
 
 module.exports = {
-    homepage
+    homepage : require("./homepage"),
+    aeroplaneController : require("./aeroplane-controller")
 };

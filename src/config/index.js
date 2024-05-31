@@ -1,5 +1,5 @@
-const {PORT} = require("./server-config");
 
 module.exports={
-    PORT
+    PORT:require("./server-config"),
+    Logger:require("./logger")
 }
